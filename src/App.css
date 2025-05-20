@@ -1,0 +1,17 @@
+@import "tailwindcss";
+@plugin "daisyui";
+
+.vertical-divider{
+  width: 2px;
+  height: auto;
+  background-color: whitesmoke;
+}
+@font-face {
+  font-family: 'Outfit';
+  src: url(fonts/Outfit-Regular.ttf) format('truetype');
+
+}
+body{
+  font-family: 'Outfit';
+
+}
